@@ -3108,3 +3108,48 @@ footer p:first-child {
         transform: none;
     }
 }
+/* =========================================
+   SKILL DETAILS
+========================================= */
+
+.skill-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.skill-top > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.skill-top strong {
+    font-size: 1rem;
+}
+
+.skill-top small {
+    font-size: 0.68rem;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.38);
+    line-height: 1.4;
+}
+
+.skill-top > span {
+    flex-shrink: 0;
+    font-size: 0.72rem;
+    color: rgba(109, 167, 255, 0.8);
+}
+
+@media (max-width: 500px) {
+
+    .skill-top {
+        gap: 12px;
+    }
+
+    .skill-top small {
+        font-size: 0.62rem;
+    }
+
+}
